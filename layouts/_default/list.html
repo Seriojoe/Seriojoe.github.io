@@ -1,0 +1,17 @@
+<!-- layouts/_default/list.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ .Title }}</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <h1>{{ .Title }}</h1>
+    <ul>
+        {{ range .Pages }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+    </ul>
+</body>
+</html>
