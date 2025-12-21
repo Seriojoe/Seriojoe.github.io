@@ -1,0 +1,5 @@
+baseURL = "https://Seriojoe.github.io/"
+languageCode = "en-us"
+title = "Joe - Personal Site"
+theme = ""
+pagination.pagerSize = 5
